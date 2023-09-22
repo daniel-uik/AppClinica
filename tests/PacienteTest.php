@@ -63,8 +63,8 @@
 
         public function testSetNumeroBeneficiario(){
             $p1 = new Paciente(1, "FRodrigo Faro", "Rua", "99999999", "Hemorroida", "Dipirona" );
-            $p1->setNumeroBeneficiario(1);
-            $this->assertEquals(1, $p1->getNumeroBeneficiario());
+            $p1->setNumeroBeneficiario(2);
+            $this->assertEquals(2, $p1->getNumeroBeneficiario());
         }
 
         public function testSetNome()

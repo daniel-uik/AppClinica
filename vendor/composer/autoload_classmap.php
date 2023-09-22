@@ -915,5 +915,6 @@ return array(
     'TheSeer\\Tokenizer\\TokenCollectionException' => $vendorDir . '/theseer/tokenizer/src/TokenCollectionException.php',
     'TheSeer\\Tokenizer\\Tokenizer' => $vendorDir . '/theseer/tokenizer/src/Tokenizer.php',
     'TheSeer\\Tokenizer\\XMLSerializer' => $vendorDir . '/theseer/tokenizer/src/XMLSerializer.php',
-    'app\\libraries\\Product' => $baseDir . '/app/libraries/Product.php',
+    'app\\libraries\\Medico' => $baseDir . '/app/libraries/Medico.php',
+    'app\\libraries\\Paciente' => $baseDir . '/app/libraries/Paciente.php',
 );

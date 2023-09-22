@@ -3,12 +3,12 @@
 namespace app\libraries;
 
 class Paciente{
-        private int $numeroBeneficiario;
-        private string $nome;
-        private string $endereco;
-        private string $telefone;
-        private string $doencasPrevias;
-        private string $medioDeUsoContinuo;
+        private  $numeroBeneficiario;
+        private  $nome;
+        private  $endereco;
+        private  $telefone;
+        private  $doencasPrevias;
+        private  $medioDeUsoContinuo;
     
         public function __construct(int $numeroBeneficiario, String $nome, String $endereco, String $telefone, String $doencasPrevias, String $medioDeUsoContinuo)
         {
@@ -48,7 +48,7 @@ class Paciente{
 
         //Retorna os Valores
 
-        public function setNumeroBeneficiario(){
+        public function getNumeroBeneficiario(){
             return $this->numeroBeneficiario;
         }
 
@@ -64,11 +64,11 @@ class Paciente{
             return $this->telefone;
         }
         
-        public function setDoencasPrevias(){
+        public function getDoencasPrevias(){
             return $this->doencasPrevias;
         }
 
-        public function setMedioDeUsoContinuo(){
+        public function getMedioDeUsoContinuo(){
             return $this->medioDeUsoContinuo;
         }
     }
