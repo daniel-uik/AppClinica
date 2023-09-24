@@ -40,14 +40,23 @@ Abra o arquivo php.ini localizado na pasta de configuração do PHP.
 
 Cole o seguinte código no arquivo php.ini após a diretiva [XSL]:
 
+
 [xdebug]
+
 zend_extension ="C:/xampp/php/ext/php_xdebug-3.2.2-8.2-vs16-x86_64.dll"
+
 xdebug.remote_enable = off
+
 xdebug.profiler_enable = off
+
 xdebug.profiler_enable_trigger = Off
+
 xdebug.profiler_output_name = cachegrind.out.%t.%p
+
 xdebug.profiler_output_dir ="C:/xampp/tmp"
+
 xdebug.show_local_vars=0
+
 
 
 Ajuste o caminho do zend_extension de acordo com a localização do arquivo php_xdebug-3.2.2-8.2-vs16-x86_64.dll.
